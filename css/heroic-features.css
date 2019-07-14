@@ -15,6 +15,9 @@ a{
 	text-decoration: none;
 	background-color: transparent;
 }
+.navbar-brand{
+	color: rgb(255, 197, 16);
+}
 .jumbotron{
 	background-color: rgba(255, 197, 16, 0.40);
 	text-align: center; 
