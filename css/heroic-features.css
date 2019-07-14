@@ -5,7 +5,7 @@
  */
 body {
   padding-top: 56px;
-  background-image: url(../img/beach-living-2088002_1920.jpg);
+  background-image: url(../img/canada-1751464_1920.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -16,10 +16,12 @@ a{
 	background-color: transparent;
 }
 .jumbotron{
-	background-color: rgba(255, 197, 16, 0.55);
+	background-color: rgba(255, 197, 16, 0.40);
+	text-align: center; 
 }
 .jumbotron a{
-	color: #f9f2dc;
+	//color: #f9f2dc;
+	color: white;
 }
 .navbar{
 	//background-color: #ef3737;
@@ -40,16 +42,30 @@ a{
     top: 5%;
 }
 
-.card-chat{
-	background-color: rgba(154, 29, 96, 0.82);
+.card-chat, .card-swim{
+	background-color: rgba(154, 29, 96, 0.90);
 }
-.card-chat .card-title{
+.card-chat .card-title, .card-swim .card-title{
 	color: #df64a6;
 }
 
-.card-bars{
+.card-bars, .card-franco{
+	background-color: rgba(35, 129, 194, 0.90);
+}
+.card-bars .card-title, .card-franco .card-title{
 	color: #88bcdf;
 }
-.card-festivals{
+
+.card-festivals, .card-sports{
+	background-color: rgba(239, 55, 55, 0.90);
+}
+.card-festivals .card-title, .card-sports .card-title{
 	color: #fe8282;
+}
+
+.card-hiking, .card-movies{
+	background-color: rgba(71, 178, 71, 0.90);
+}
+.card-hiking .card-title, .card-movies .card-title{
+	color: #83d983;
 }
