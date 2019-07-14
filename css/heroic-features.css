@@ -5,7 +5,7 @@
  */
 body {
   padding-top: 56px;
-  background-image: url(../img/canada-1751464_1920.jpg);
+  //background-image: url(../img/canada-1751464_1920.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
