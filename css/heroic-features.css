@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background-image: url(../img/beach-living-2088002_1920.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+a{
+	color:white;
+	text-decoration: none;
+	background-color: transparent;
+}
+.jumbotron{
+	background-color: rgba(255, 197, 16, 0.55);
+}
+.jumbotron a{
+	color: #f9f2dc;
+}
+.navbar{
+	//background-color: #ef3737;
+}
+.card{
+	background-color: transparent;
+	border: 0;
+}
+.card-body {
+    padding: 0;
+    padding-left: 1.25rem;
+}
+.card-title{
+	color: white;
+    margin-bottom: .75rem;
+    position: absolute;
+    //width: 100%;
+    top: 5%;
+}
+
+.card-chat{
+	background-color: rgba(154, 29, 96, 0.82);
+}
+.card-chat .card-title{
+	color: #df64a6;
+}
+
+.card-bars{
+	color: #88bcdf;
+}
+.card-festivals{
+	color: #fe8282;
+}
