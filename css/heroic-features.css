@@ -5,7 +5,7 @@
  */
 body {
   padding-top: 56px;
-  //background-image: url(../img/canada-1751464_1920.jpg);
+  background-image: url(../img/canada-1751464_1920.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -40,6 +40,13 @@ a{
     position: absolute;
     //width: 100%;
     top: 5%;
+}
+
+.card-newco{
+	background-color: rgba(255, 197, 16, 0.90);
+}
+.card-newco .card-title{
+	color: #ffe081;
 }
 
 .card-chat, .card-swim{
