@@ -112,7 +112,10 @@ footer{
     background-image: url(../img/header-bg.jpg);
     //background-position: right;
     //background-size: 1000px;
-    background-size: auto 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
 	}
 
