@@ -35,6 +35,9 @@ a{
     Arial, sans-serif, 'Apple Color Emoji', 
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.qa{
+	font-size: x-small;;
+}
 .jumbotron{
 	background-color: rgba(255, 197, 16, 0.40);
 	text-align: center; 
@@ -107,7 +110,7 @@ footer{
  	body {
     padding-top: 56px;
     background-image: url(../img/header-bg.jpg);
-    background-position: right;
+    //background-position: right;
     //background-size: 1000px;
     background-attachment: fixed;
 	}
