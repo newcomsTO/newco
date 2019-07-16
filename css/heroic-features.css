@@ -5,18 +5,35 @@
  */
 body {
   padding-top: 56px;
-  //background-image: url(../img/canada-1751464_1920.jpg);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url(../img/header-bg.jpg);
+  //background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-c {
+    padding-top: 20px;
 }
 a{
 	color:white;
 	text-decoration: none;
 	background-color: transparent;
 }
+.navbar{
+	//background: rgba(255, 140, 0, 0.71);
+	background-color: rgba(155, 42, 131, 0.9);
+}
 .navbar-brand{
-	color: rgb(255, 197, 16);
+	//color: rgb(255, 197, 16);
+	color: white;
+	//width: 100%;
+    margin-right: 0;
+    text-align: center;
+    font-family: 'Kaushan Script', 
+    -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, 'Helvetica Neue', 
+    Arial, sans-serif, 'Apple Color Emoji', 
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 .jumbotron{
 	background-color: rgba(255, 197, 16, 0.40);
@@ -46,36 +63,56 @@ a{
 }
 
 .card-newco{
-	background-color: rgba(255, 197, 16, 0.90);
+	background-color: rgba(255, 197, 16, 0.50);
 }
-.card-newco .card-title{
-	color: #ffe081;
-}
-
-.card-chat, .card-swim{
-	background-color: rgba(154, 29, 96, 0.90);
-}
-.card-chat .card-title, .card-swim .card-title{
-	color: #df64a6;
+.card-chat, .card-visit{
+	background-color: rgba(154, 29, 96, 0.50);
 }
 
 .card-bars, .card-franco{
-	background-color: rgba(35, 129, 194, 0.90);
-}
-.card-bars .card-title, .card-franco .card-title{
-	color: #88bcdf;
+	background-color: rgba(35, 129, 194, 0.50);
 }
 
 .card-festivals, .card-sports{
-	background-color: rgba(239, 55, 55, 0.90);
+	background-color: rgba(239, 55, 55, 0.50);
 }
-.card-festivals .card-title, .card-sports .card-title{
-	color: #fe8282;
+.card-hiking, .card-movies{
+	background-color: rgba(71, 178, 71, 0.50);
 }
 
-.card-hiking, .card-movies{
-	background-color: rgba(71, 178, 71, 0.90);
+footer{
+	bottom: 0;
+    //position: absolute;
+    width: 100%;
 }
-.card-hiking .card-title, .card-movies .card-title{
-	color: #83d983;
+
+
+@media (min-width: 992px) {
+	.body-c {
+	//padding-top: 120px;
+	}
+	.card-newco img{
+	width: 50%;
+	}
+
+	.card-newco .card-title {
+	top: 40%;
+	padding-left: 20%;
+	font-size: 50px;
+	}
+
+}
+
+@media (max-width: 992px) {
+ 	body {
+    padding-top: 56px;
+    background-image: url(../img/header-bg.jpg);
+    background-position: right;
+    //background-size: 1000px;
+    background-attachment: fixed;
+	}
+
+	.navbar-nav .nav-link {
+    text-align: center;
+	}
 }
