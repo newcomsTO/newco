@@ -123,3 +123,21 @@ footer{
     text-align: center;
 	}
 }
+
+@media (max-width: 576px) {
+	.card-title {
+		font-size: medium;
+	}
+	.card-newco .card-title {
+		font-size: x-large;
+	}
+}
+
+@media (max-width: 320px) {
+	.card-title {
+		font-size: smaller;
+	}
+	.card-newco .card-title {
+		font-size: x-large;
+	}
+}
