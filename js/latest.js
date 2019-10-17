@@ -42,18 +42,17 @@ function eventsDisplay(value) {
 
             	var iGroup = groups[g];
 
-            	content=`<div class='eventItem col-md-3'><a href="`+iGroup.link+`">
+            	content += `<div class='eventItem col mx-2 my-1'>
 							<h6 class='eventTitle'>`+d+`</h6>
 							<table class="table">
+								<tr><td class='eventDate'>Organizer</td><td> <span>`+c+`</span></td></tr>
 								<tr><td class='eventDate'>Date</td><td> <span>`+e+`</span></td></tr>
 								<tr><td class='eventTime'>Time</td><td> <span>`+t+`</span></td></tr>
 								<tr><td class='eventWait'>Waiting Time</td><td> <span>`+w+`</span></td></tr>
 								<tr><td class='eventPlace'>Place</td><td> <span>`+p+`</span></td></tr>
 								<tr><td class='eventInfo'>More Information</td><td> <span>`+i+`</span></td></tr>
 							</table>
-							<button class="btn btn-primary eventGroup">Group `+iGroup.name+`</button>
-						</a>
-
+							<a href="`+iGroup.link+`" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Group `+iGroup.name+`</a>
 						</div>`;
            
             });
