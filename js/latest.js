@@ -60,7 +60,7 @@ function eventsDisplay(value) {
 								<li class='eventIt eventPlace col-sm-4'>Place</li>
 								<li class='col-sm-8'> <span>`+p+`</span></li>
 
-								<li class='eventInfo col-sm-12'>More Information</li>
+								<li class='eventIt eventInfo col-sm-12'>More Information</li>
 								<li class='col-sm-12' style="color: #117a8b">`+i+`</li>
 							</ul>
 							<a href="`+iGroup.link+`" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Group `+iGroup.name+`</a>
