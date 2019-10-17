@@ -81,6 +81,14 @@ a{
 	background-color: rgba(71, 178, 71, 0.50);
 }
 
+/*******form**/
+.form-check-label{
+background-color: #ffffff;
+}
+fieldset .form-check-label .form-check-input:checked {
+   background-color: #28a745;
+}
+
 footer{
 	bottom: 0;
     //position: absolute;
@@ -100,6 +108,11 @@ footer{
 	top: 40%;
 	padding-left: 20%;
 	font-size: 50px;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
 	}
 
 }
@@ -135,4 +148,27 @@ footer{
 	.card-newco .card-title {
 		font-size: x-large;
 	}
+}
+
+.eventItem{
+	text-align: center;
+    background-color: #493f52d9;
+    border-radius: 16px;
+    color: white;
+    padding: 20px;
+}
+
+.eventItem td{
+	color: white;
+}
+
+.eventItem span{
+    color: #f17424;
+    //text-transform: uppercase;
+}
+
+.eventTitle{
+	text-transform: uppercase;
+    font-size: large;
+    padding: 0 20px;
 }

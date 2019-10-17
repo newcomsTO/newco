@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>The Newcomers - QA</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+ 
+<body class="mh-100 h-100">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" style="">
+    <div class="container">
+      <a class="navbar-brand" href="#">The Newcomers <span class="qa">/Quick Access</span></a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Presentation
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terms</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container body-c" style="">
+
+    <form class="sucess-none" id="newEvent" style="
+    background-color: #65b63a9e;
+    padding: 20px;
+    border-radius: 8px;">
+      <div class="form-group">
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your Firstname" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="titl" placeholder="Enter a Title" required>
+      </div>
+      <div class="form-group">
+        <label for="date-input" class="col-form-label">Enter the Date</label>
+        <input class="form-control" type="date" value="" id="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time-input" class="col-form-label">Enter the Meeting Time</label>
+        <input class="form-control" type="time" value="" id="time" required>
+      </div>
+      <div class="form-group">
+        <label for="time-input" class="col-form-label">Enter the Waiting Time</label>
+        <input type="time" class="form-control" id="waiting">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="place" placeholder="Enter the location" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="info" placeholder="Add More Information">
+      </div>
+
+
+      <fieldset class="form-group">
+        <ul class="row" style="list-style-type: none;margin: 0;padding: 0;padding: 15px;background-color: #dcc861;">
+
+          <li class="col-sm-12">
+            <div class="">
+              <label class="">Select the Group</label>
+            </div>
+          </li>
+
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="0" id="customControlValidation2" name="radio-stacked"  required>
+              <label class="custom-control-label" for="customControlValidation2">Bars / Nights</label>
+            </div>
+          </li>
+
+          <!--<li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="1" id="customControlValidation3" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation3">Festivals</label>
+            </div>
+          </li>-->
+
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="2" id="customControlValidation4" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation4">Hiking</label>
+            </div>
+          </li>
+
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="3" id="customControlValidation5" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation5">Sports</label>
+            </div>
+          </li>
+                    
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="4" id="customControlValidation6" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation6">Films</label>
+            </div>
+          </li>
+
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="5" id="customControlValidation7" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation7">Visits</label>
+            </div>
+          </li>
+
+          <li class="col-sm-2">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" name="checked" value="6" id="customControlValidation8" name="radio-stacked" required>
+              <label class="custom-control-label" for="customControlValidation8">French</label>
+            </div>
+          </li>
+
+
+        </ul>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary" value="Submit" name="subscribe" id="submitEvent" style="margin: 20px 0;width: 100%;">Submit</button>
+    </form>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Webbanie 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Firebase -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+
+  <script src="js/base.js"></script>
+
+</body>
+
+</html>
