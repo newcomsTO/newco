@@ -167,13 +167,13 @@ footer{
 .eventItem ul {
   list-style-type: none;
   //border-top: 1px solid;
-  background-color: #4c3538; //#352729;
+  background-color: #4c353861; //#4c3546b3; #4c3538; //#352729;
   padding: 5px;
 }
 
 .eventItem li{
 	padding: 8px 0px;
-border-bottom: 1px solid #826b85;
+//border-bottom: 1px solid #826b85;
 }
 
 .eventItem span{
