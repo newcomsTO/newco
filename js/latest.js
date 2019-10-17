@@ -44,15 +44,26 @@ function eventsDisplay(value) {
 
             	content += `<div class='eventItem col mx-2 my-1'>
 							<h6 class='eventTitle'>`+d+`</h6>
-							<table class="table">
-								<tr><td class='eventDate'>Organizer</td><td> <span>`+c+`</span></td></tr>
-								<tr><td class='eventDate'>Date</td><td> <span>`+e+`</span></td></tr>
-								<tr><td class='eventTime'>Time</td><td> <span>`+t+`</span></td></tr>
-								<tr><td class='eventWait'>Waiting Time</td><td> <span>`+w+`</span></td></tr>
-								<tr><td class='eventPlace'>Place</td><td> <span>`+p+`</span></td></tr>
-								<tr><td class='eventInfo'>More Information</td><td> <span>`+i+`</span></td></tr>
-							</table>
-							<a href="`+iGroup.link+`" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Group `+iGroup.name+`</a>
+							<ul class="row">
+								<li class='eventIt eventDate col-sm-4'>Organizer</li>
+								<li class='col-sm-8'> <span>`+c+`</span></li>
+
+								<li class='eventIt eventDate col-sm-4'>Date</li>
+								<li class='col-sm-8'> <span>`+e+`</span></li>
+
+								<li class='eventIt eventTime col-sm-4'>Time</li>
+								<li class='col-sm-8'> <span>`+t+`</span></li>
+
+								<li class='eventIt eventWait col-sm-4'>Waiting Time</li>
+								<li class='col-sm-8'> <span>`+w+`</span></li>
+
+								<li class='eventIt eventPlace col-sm-4'>Place</li>
+								<li class='col-sm-8'> <span>`+p+`</span></li>
+
+								<li class='eventInfo col-sm-12'>More Information</li>
+								<li class='col-sm-12' style="color: #117a8b">`+i+`</li>
+							</ul>
+							<a href="`+iGroup.link+`" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Group `+iGroup.name+`</a>
 						</div>`;
            
             });
